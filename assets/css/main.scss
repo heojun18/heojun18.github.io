@@ -3,6 +3,31 @@
 
 @import "devlopr";
 
+/* Education section tweaks */
+#education-section .education-item {
+  margin-bottom: 28px;
+}
+
+#education-section .experience-title {
+  line-height: 1.3;
+}
+
+#education-section .edu-period {
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+#education-section .experience-info {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+#education-section .experience-desc {
+  margin-bottom: 4px;
+}
+
+/* remove your test style if you want */
 .example-main {
   color: blue;
 }
