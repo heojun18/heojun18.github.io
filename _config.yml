@@ -57,6 +57,65 @@ author_project_details:
                 project_url: 
                 visibility: 
 
+# Publications
+
+author_publication_details:
+  - title: "An LSM Tree Augmented with B+ Tree on Nonvolatile Memory"
+    authors: "Donguk Kim, Jongsung Lee, Keun Soo Lim, Jun Heo, Tae Jun Ham, and Jae W. Lee"
+    venue: "ACM Transactions on Storage"
+    year: 2024
+    link: ""
+    visibility: true
+
+  - title: "BOSS: Bandwidth-Optimized Search Accelerator for Storage-Class Memory"
+    authors: "Jun Heo, Seungyul Lee, Sunhong Min, Yeonhong Park, Sung Jun Jung, Tae Jun Ham, and Jae W. Lee"
+    venue: "International Symposium on Computer Architecture (ISCA), Worldwide Event"
+    year: 2021
+    link: ""
+    visibility: true
+
+  - title: "Unlocking Wordline-level Parallelism for Fast Inference on RRAM-based DNN Accelerator"
+    authors: "Yeonhong Park, Seung Yul Lee, Hoon Shin, Jun Heo, Tae Jun Ham, and Jae W. Lee"
+    venue: "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)"
+    year: 2020
+    link: ""
+    visibility: true
+
+  - title: "A Specialized Architecture for Object Serialization with Applications to Big Data Analytics"
+    authors: "Jaeyoung Jang, Sungjun Jung, Sunmin Jeong, Jun Heo, Hoon Shin, Tae Jun Ham, and Jae W. Lee"
+    venue: "International Symposium on Computer Architecture (ISCA), Valencia, Spain"
+    year: 2020
+    link: ""
+    visibility: true
+
+  - title: "IIU: Specialized Architecture for Inverted Index Search"
+    authors: "Jun Heo, Jaeyeon Won, Yejin Lee, Shivam Bharuka, Jaeyoung Jang, Tae Jun Ham, and Jae W. Lee"
+    venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), Lausanne, Switzerland"
+    year: 2020
+    link: ""
+    visibility: true
+
+  - title: "Charon: Specialized Near-Memory Processing Architecture for Clearing Dead Objects in Memory"
+    authors: "Jaeyoung Jang, Jun Heo, Yejin Lee, Jaeyeon Won, Seonghak Kim, Sungjun Jung, Hakbeom Jang, Tae Jun Ham, and Jae W. Lee"
+    venue: "IEEE/ACM International Symposium on Microarchitecture (MICRO), Columbus, OH, USA"
+    year: 2019
+    link: ""
+    visibility: true
+
+  - title: "A Portable, Automatic Data Quantizer for Deep Neural Networks"
+    authors: "Young H. Oh, Quan Quan, Daeyeon Kim, Seonghak Kim, Jun Heo, Sungjun Jung, Jaeyoung Jang, and Jae W. Lee"
+    venue: "International Conference on Parallel Architectures and Compilation Techniques (PACT), Limassol, Cyprus"
+    year: 2018
+    link: ""
+    visibility: true
+
+  - title: "Jointly Optimizing Task Granularity and Concurrency for In-Memory MapReduce Frameworks"
+    authors: "Jonghyun Bae, Hakbeom Jang, Wenjing Jin, Jun Heo, Jaeyoung Jang, Joo-Young Hwang, Sangyeun Cho, and Jae W. Lee"
+    venue: "IEEE International Conference on Big Data (BigData), Boston, MA"
+    year: 2017
+    link: ""
+    visibility: true
+
 
 # social links
 twitter_username: 
