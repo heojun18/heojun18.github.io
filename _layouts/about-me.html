@@ -161,22 +161,47 @@ layout: default
       </div>
       {% endif %} {% endfor %}
     </div>
-    {% endif %} {% if site.show_author_education_details == true %}
-    <div class="card">
+
+    {% if site.show_author_education_details == true %}
+    <div class="card" id="education-section">
       <h1 class="card-title">Education</h1>
       <br />
-      {% for detail in site.author_education_details %} {% if detail.visibility
-      == true %}
-      <div class="row">
-        <div class="col-md-6">
-          <h4 class="experience-title">{{detail.college_degree }}</h4>
-          <h6 class="experience-info">{{detail.college_name}}</h6>
-          <p class="experience-desc">{{detail.description}}</p>
-          <p><a href="{{detail.college_url}}">{{ detail.college_url}}</a></p>
-        </div>
+
+      {% for detail in site.author_education_details %}
+      {% if detail.visibility == true %}
+      <div class="education-item">
+
+        <h4 class="experience-title">
+          {{ detail.college_degree }}
+          {% if detail.description and detail.description != "" %}
+          <span class="edu-period">
+            ({{ detail.description }})
+          </span>
+          {% endif %}
+        </h4>
+
+        <h6 class="experience-info">
+          {{ detail.college_name }}
+          {% if detail.location %}, {{ detail.location }}{% endif %}
+        </h6>
+
+        {% if detail.dissertation %}
+        <p class="experience-desc">
+          Dissertation: {{ detail.dissertation }}
+        </p>
+        {% endif %}
+
+        {% if detail.advisor %}
+        <p class="experience-desc">
+          Advisor(s): {{ detail.advisor }}
+        </p>
+        {% endif %}
+
       </div>
-      {% endif %} {% endfor %}
+      {% endif %}
+      {% endfor %}
     </div>
+
     {% endif %} {% if site.show_author_publication_details == true %}
     <div class="card">
       <h1 class="card-title">Publication</h1>
