@@ -42,12 +42,24 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: 
-                college_name: Seoul National University
-                college_url: 
-                college_degree: Computer Science
-                description: Ph. D.
-                visibility: true
+  - college_name: Seoul National University, Seoul, Korea
+    college_degree: Ph.D. in Computer Science and Engineering (Sep. 2017 – Feb. 2022)
+    description: >
+      Dissertation: Hardware Acceleration of Full-text Search Engine  
+      Advisor: Prof. Jae W. Lee
+    visibility: true
+
+  - college_name: Sungkyunkwan University, Suwon, Korea
+    college_degree: M.S. in Electrical and Computer Engineering (Mar. 2016 – Aug. 2017)
+    description: >
+      Dissertation: Efficient RDD Prefetching for Apache Spark  
+      Advisors: Prof. Jae W. Lee, Prof. Jaehyuk Choi
+    visibility: true
+
+  - college_name: Sungkyunkwan University, Suwon, Korea
+    college_degree: B.S. in Electronic and Electrical Engineering
+    description: ""
+    visibility: true
 
 # Projects
 author_project_details:
@@ -154,9 +166,9 @@ highlighter: rouge
 permalink: pretty
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
+show_author_work_experiences: false
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 show_author_publication_details: true
 
 # pagination of posts
